@@ -1,3 +1,5 @@
+const path = require('path');
+
 const dns = require('dns');
 dns.setServers(['8.8.8.8', '1.1.1.1']); // Forces Node to use Google and Cloudflare DNS
 
@@ -5,7 +7,7 @@ dns.setServers(['8.8.8.8', '1.1.1.1']); // Forces Node to use Google and Cloudfl
 
 const express = require("express")
 const colors = require("colors")
-const dotenv = require("dotenv").config()
+const dotenv = require("dotenv").config({ path: path.join(__dirname, '../.env') })
 const { errorHandler } = require("./middleware/errorMiddleware")
 const connectDB = require("./config/db")
 const PORT = process.env.PORT || 5000
