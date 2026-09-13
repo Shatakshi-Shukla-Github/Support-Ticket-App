@@ -8,7 +8,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm --prefix frontend run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
@@ -20,6 +22,7 @@
     "mongoose": "^9.9.5"
   },
   "devDependencies": {
+    "concurrently": "^9.2.4",
     "nodemon": "^3.1.14"
   }
 }
