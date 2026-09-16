@@ -37,6 +37,12 @@ export const login = createAsyncThunk(
 )
 
 
+//Logout User:-
+export const logout = createAsyncThunk("auth/logout", async () => {
+    await authService.logout()
+})
+
+
 export const authSlice = createSlice({
     name: "auth",
     initialState,
@@ -67,8 +73,14 @@ export const authSlice = createSlice({
                 state.message = action.payload  //in the function "register", if we encounter an error then we return:- "thunkAPI.rejectWithValue(message)" , here the message returned is what acts as the "payload"
                 state.user = null
             })
+            .addCase(logout.fulfilled, (state, action) => {
+                state.user = null
+            })
     },
 })
+
+
+
 
 
 export const { reset } = authSlice.actions
