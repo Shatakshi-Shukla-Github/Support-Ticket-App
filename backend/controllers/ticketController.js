@@ -81,4 +81,68 @@ const createTicket = asyncHandler(async (req, res) => {
 })
 
 
-module.exports = { getTickets, getTicket, createTicket }
+//@desc    Delete a user ticket
+//@route   DELETE /api/tickets/:id 
+//@access  Private
+const deleteTicket = asyncHandler(async (req, res) => {
+    //Get user using the id and the JWT:-
+    const user = await User.findById(req.user.id)
+
+    if (!user) {
+        res.status(401)
+        throw new Error("User not found")
+    }
+
+    const ticket = await Ticket.findById(req.params.id)
+
+    if (!ticket) {
+        res.status(404)
+        throw new Error("Ticket not found")
+    }
+
+    if (ticket.user.toString() !== req.user.id) {
+        res.status(401)
+        throw new Error("Not Authorized")
+    }
+
+    await Ticket.findByIdAndDelete(req.params.id)
+    res.status(200).json({ success: true })
+})
+
+
+
+//@desc    Update a ticket
+//@route   PUT /api/tickets/:id
+//@access  Private
+const updateTicket = asyncHandler(async (req, res) => {
+    //Get user using the id and the JWT:-
+    const user = await User.findById(req.user.id)
+
+    if (!user) {
+        res.status(401)
+        throw new Error("User not found")
+    }
+
+    const ticket = await Ticket.findById(req.params.id)
+
+    if (!ticket) {
+        res.status(404)
+        throw new Error("Ticket not found")
+    }
+
+    if (ticket.user.toString() !== req.user.id) {
+        res.status(401)
+        throw new Error("Not Authorized")
+    }
+
+    //{new:true} means that if the ticket doesnt exist that create one
+    const updatedTicket = await Ticket.findByIdAndUpdate(req.params.id, req.body, { new: true })
+
+    res.status(200).json(updatedTicket)
+})
+
+
+
+
+
+module.exports = { getTickets, getTicket, createTicket, deleteTicket, updateTicket }
