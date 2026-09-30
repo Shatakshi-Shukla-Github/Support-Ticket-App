@@ -1,3 +1,6 @@
+import cors from "cors";
+app.use(cors())
+
 const path = require('path');
 
 const dns = require('dns');
