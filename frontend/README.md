@@ -1,16 +1,53 @@
-# React + Vite
+# Support Desk Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This frontend is the user interface for the Support Desk application. It handles sign-up, login, ticket creation, ticket viewing, ticket status updates, and notes management for each support request.
 
-Currently, two official plugins are available:
+## Pages in the app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Home
+The landing page presents the two main actions:
+- Create New Ticket
+- View My Tickets
 
-## React Compiler
+### Register
+A user can create an account using their name, email, and password. The form validates matching passwords and redirects them to the home page after successful registration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Login
+A returning user can log in with their email and password. The app authenticates them with JWT and redirects them to the home page after a successful login.
 
-## Expanding the ESLint configuration
+### New Ticket
+The user fills in a support request by selecting a product and describing the problem. The page auto-populates their name and email from the logged-in account.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tickets
+This page lists all tickets submitted by the logged-in user. Each ticket shows the date, product, status, and a button to view more details.
+
+### Ticket Details
+The detailed ticket page displays the ticket ID, product, created date, issue description, and all related notes. The user can add notes and close the ticket once it is resolved.
+
+### Notes
+Each ticket can have one or more notes. Notes are recorded as updates related to the support issue and are shown in chronological order.
+
+## Main technologies used
+
+- React
+- Vite
+- Redux Toolkit
+- React Router
+- React Toastify
+- React Icons
+- Axios
+
+## Running the frontend
+
+From the project root:
+
+```bash
+npm run client
+```
+
+Or from the frontend folder:
+
+```bash
+cd frontend
+npm run dev
+```
