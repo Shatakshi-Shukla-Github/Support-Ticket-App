@@ -14,14 +14,15 @@ Support Desk is a full-stack customer support ticket application built with Reac
     <li>React Toastify</li>
   </ul>
   
-<b>Backend:</b> 
+<li><b>Backend:</b></li>
+<ul>
   <li>Node.js and Express.js</li>
   <li>MongoDB with Mongoose ODM</li>
   <li>JWT Authentication</li>
   <li>Custom authentication middleware</li>
   <li>Custom error handler</li>
 </ul>
-
+</ul>
 <h2>Features</h2>
 
 - User registration and login
