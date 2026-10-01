@@ -46,14 +46,50 @@ Support Desk is a full-stack customer support ticket application built with Reac
     <li/>
 </p>
 
-- Protected routes for authenticated users only
-- Create new support tickets
-- View all tickets for the logged-in user
-- Open a single ticket to see full details
-- Add notes to a ticket
-- Close resolved tickets
-- Track ticket status (`new`, `open`, `closed`)
+<p>
+    <li>
+      <h3>Create new support tickets:-</h3>
+      <img width="1920" height="866" alt="Support Desk Create Ticket" src="https://github.com/user-attachments/assets/d7c9e34d-6508-4af5-b625-7c97c65a2073" />
+    <li/>
+</p>
+
+<p>
+    <li>
+      <h3>View all tickets for the logged-in user:-</h3>
+     <img width="1920" height="852" alt="Support Desk Tickets" src="https://github.com/user-attachments/assets/9c31338f-df8e-43b5-b9ac-28b0d7e3ab72" />
+    <li/>
+</p>
+
+<p>
+    <li>
+      <h3>Open a single ticket to see full details:-</h3>
+     <img width="1920" height="864" alt="Support Desk Ticket Overview" src="https://github.com/user-attachments/assets/723f847d-1d7b-4606-8237-503eab0e5f23" />
+    <li/>
+</p>
+
+<p>
+    <li>
+      <h3>Add notes to a ticket:-</h3>
+    <img width="1920" height="864" alt="Support Desk Add Note" src="https://github.com/user-attachments/assets/1453c73b-e460-4065-8e71-4c478ac8921b" />
+    <li/>
+</p>
+
+<p>
+    <li>
+      <h3>Close resolved tickets:-</h3>
+    <img width="1920" height="859" alt="Support Desk Close Ticket" src="https://github.com/user-attachments/assets/013ee770-1f5d-4637-be3f-774dbf329a31" />
+    <li/>
+</p>
+
+<p>
+    <li>
+      <h3>Track ticket status (new, open, closed):-</h3>
+    <img width="1920" height="852" alt="Support Desk Tickets" src="https://github.com/user-attachments/assets/1ec70d95-f033-46f8-8d84-d64ef331863f" />
+    <li/>
+</p>
 </ul>
+
+
 ## Pages and Functionality
 
 ### 1. Home Page
