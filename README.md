@@ -37,7 +37,10 @@ Support Desk is a full-stack customer support ticket application built with Reac
 
 <h2>Features</h2>
 
-<p><ul><h3>User registration and login:-<h3></p>
+<p>
+  <ul>
+    <li><h3>User registration and login:-</h3><li/>
+</p>
 <img width="1920" height="854" alt="Support Desk Login" src="https://github.com/user-attachments/assets/0931062b-ba9c-4b5f-a603-c24ea98e49b1" />
 <img width="1920" height="857" alt="Support Desk Register" src="https://github.com/user-attachments/assets/656333a3-1d75-4d92-bb1d-3c6f8b6f62e7" />
 
