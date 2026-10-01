@@ -4,13 +4,14 @@ Support Desk is a full-stack customer support ticket application built with Reac
 
 <h2>Technologies Used</h2>
 
-<ul><b>Frontend:</b> 
-  <li>React with functional components and hooks</li>
-  <li>Vite</li>
-  <li>Redux Toolkit for state management</li>
-  <li>React Router</li>
-  <li>React Toastify</li>
-</ul>
+<ul><b>Frontend:</b></ul>
+  <ul>
+    <li>React with functional components and hooks</li>
+    <li>Vite</li>
+    <li>Redux Toolkit for state management</li>
+    <li>React Router</li>
+    <li>React Toastify</li>
+  </ul>
 <ul><b>Backend:</b> 
   <li>Node.js and Express.js</li>
   <li>MongoDB with Mongoose ODM</li>
