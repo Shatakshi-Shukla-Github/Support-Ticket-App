@@ -1,22 +1,25 @@
-# Support Desk
+<a href="https://support-ticket-app-frontend.onrender.com"><h1>Support Desk</h1></a>
 
 Support Desk is a full-stack customer support ticket application built with React, Redux, Express, and MongoDB. It allows users to create accounts, log in, submit support tickets, review their ticket history, and add notes to ongoing issues.
 
-## Tech Stack
+<h2>Technologies Used</h2>
 
-- Frontend: React + Vite + Redux Toolkit + React Router
-- Backend: Node.js + Express
-- Database: MongoDB + Mongoose
-- Auth: JWT-based authentication
-- Notifications: React Toastify
+<ul><b>Frontend:</b> 
+  <li>React with functional components and hooks</li>
+  <li>Vite</li>
+  <li>Redux Toolkit for state management</li>
+  <li>React Router</li>
+  <li>React Toastify</li>
+</ul>
+<ul><b>Backend:</b> 
+  <li>Node.js and Express.js</li>
+  <li>MongoDB with Mongoose ODM</li>
+  <li>JWT Authentication</li>
+  <li>Custom authentication middleware</li>
+  <li>Custom error handler</li>
+</ul>
 
-## Project Structure
-
-- `backend/` - Express API, authentication, ticket and note logic
-- `frontend/` - React application and UI pages
-- `.env` - environment variables for server configuration
-
-## Main Features
+<h2>Features</h2>
 
 - User registration and login
 - Protected routes for authenticated users only
