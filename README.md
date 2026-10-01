@@ -1,4 +1,4 @@
-<a href="https://support-ticket-app-frontend.onrender.com"><h1>Support Desk</h1></a>
+<h1><a href="https://support-ticket-app-frontend.onrender.com">Support Desk</a></h1>
 
 Support Desk is a full-stack customer support ticket application built with React, Redux, Express, and MongoDB. It allows users to create accounts, log in, submit support tickets, review their ticket history, and add notes to ongoing issues.
 
