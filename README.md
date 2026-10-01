@@ -44,6 +44,7 @@ Support Desk is a full-stack customer support ticket application built with Reac
       <img width="1920" height="854" alt="Support Desk Login" src="https://github.com/user-attachments/assets/0931062b-ba9c-4b5f-a603-c24ea98e49b1" />
 <img width="1920" height="857" alt="Support Desk Register" src="https://github.com/user-attachments/assets/656333a3-1d75-4d92-bb1d-3c6f8b6f62e7" />
     <li/>
+    </ul>
 </p>
 
 <p>
@@ -51,6 +52,7 @@ Support Desk is a full-stack customer support ticket application built with Reac
       <h3>Create new support tickets:-</h3>
       <img width="1920" height="866" alt="Support Desk Create Ticket" src="https://github.com/user-attachments/assets/d7c9e34d-6508-4af5-b625-7c97c65a2073" />
     <li/>
+      </ul>
 </p>
 
 <p>
@@ -58,6 +60,7 @@ Support Desk is a full-stack customer support ticket application built with Reac
       <h3>View all tickets for the logged-in user:-</h3>
      <img width="1920" height="852" alt="Support Desk Tickets" src="https://github.com/user-attachments/assets/9c31338f-df8e-43b5-b9ac-28b0d7e3ab72" />
     <li/>
+      </ul>
 </p>
 
 <p>
@@ -65,6 +68,7 @@ Support Desk is a full-stack customer support ticket application built with Reac
       <h3>Open a single ticket to see full details:-</h3>
      <img width="1920" height="864" alt="Support Desk Ticket Overview" src="https://github.com/user-attachments/assets/723f847d-1d7b-4606-8237-503eab0e5f23" />
     <li/>
+      </ul>
 </p>
 
 <p>
@@ -72,6 +76,7 @@ Support Desk is a full-stack customer support ticket application built with Reac
       <h3>Add notes to a ticket:-</h3>
     <img width="1920" height="864" alt="Support Desk Add Note" src="https://github.com/user-attachments/assets/1453c73b-e460-4065-8e71-4c478ac8921b" />
     <li/>
+      </ul>
 </p>
 
 <p>
@@ -79,6 +84,7 @@ Support Desk is a full-stack customer support ticket application built with Reac
       <h3>Close resolved tickets:-</h3>
     <img width="1920" height="859" alt="Support Desk Close Ticket" src="https://github.com/user-attachments/assets/013ee770-1f5d-4637-be3f-774dbf329a31" />
     <li/>
+      </ul>
 </p>
 
 <p>
