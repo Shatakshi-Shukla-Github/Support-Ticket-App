@@ -18,15 +18,22 @@ Support Desk is a full-stack customer support ticket application built with Reac
   
 <li><b>Backend:</b></li>
 <p>
-<ul>
-  <li>Node.js and Express.js</li>
-  <li>MongoDB with Mongoose ODM</li>
-  <li>JWT Authentication</li>
-  <li>Custom authentication middleware</li>
-  <li>Custom error handler</li>
-</ul>
+  <ul>
+    <li>Node.js and Express.js</li>
+    <li>MongoDB with Mongoose ODM</li>
+    <li>JWT Authentication</li>
+    <li>Custom authentication middleware</li>
+    <li>Custom error handler</li>
+  </ul>
+</p>
+<li>Deployment</li>
+<p>
+  <ul>
+    <li>Currently deployed on Render</li>
+  </ul>
 </p>
 </ul>
+
 <h2>Features</h2>
 
 - User registration and login
